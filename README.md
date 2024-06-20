@@ -6,6 +6,7 @@ This project focuses on classifying car models using the Stanford Car Dataset. A
 
 - **Training Images**:  8,144
 - **Test Images**: 8,041
+- **Number of Classes**: 196
 - **Dataset**: Stanford Car Dataset
 
 ## Model and Training Details
