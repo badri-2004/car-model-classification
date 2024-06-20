@@ -45,4 +45,4 @@ engine.train(model=model,
 
 utils.save_model(model=model,
                  target_dir="models",
-                 model_name="05_going_modular_script_mode_tinyvgg_model.pth")
+                 model_name="best_model.pth")
