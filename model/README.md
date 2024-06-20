@@ -4,8 +4,8 @@ This project focuses on classifying car models using the Stanford Car Dataset. A
 
 ## Dataset Details
 
-- **Training Images**: 2000
-- **Test Images**: 2000
+- **Training Images**:  8,144
+- **Test Images**: 8,041
 - **Dataset**: Stanford Car Dataset
 
 ## Model and Training Details
@@ -35,6 +35,6 @@ Vision Transformers (ViTs) apply the transformer architecture, originally develo
 
 #### ViT Architecture Overview
 
-<img src="vit_architecture.png" alt="Vision Transformer Architecture" width="800"/>
+<img src="vit_architecture.webp" alt="Vision Transformer Architecture" width="800"/>
 
 Image Source: [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) by Alexey Dosovitskiy et al.
