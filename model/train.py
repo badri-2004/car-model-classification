@@ -5,7 +5,7 @@ import data_setup, engine, model_builder, utils
 from torchvision import transforms
 
 
-NUM_EPOCHS = 20
+NUM_EPOCHS = 10
 BATCH_SIZE = 64
 LEARNING_RATE = 2*(10**-5)
 
