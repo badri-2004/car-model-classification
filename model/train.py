@@ -10,8 +10,8 @@ BATCH_SIZE = 64
 LEARNING_RATE = 2*(10**-5)
 
 
-train_dir = "/content/car_data/train"
-test_dir = "/content/car_data/test"
+train_dir = "/content/car-model-classification/car_data/train"
+test_dir = "/content/car-model-classification/car_data/test"
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
