@@ -1,20 +1,20 @@
 # Car Model Classification using Stanford Dataset
 
-This project focuses on classifying car models using the Stanford Car Dataset. A pretrained Vision Transformer `google/vit-base-patch16-224` model from Hugging Face Transformers was employed and fine-tuned on the cars dataset, achieving an accuracy of 72.88% on the test set.
+This project focuses on classifying car models using the Stanford Car Dataset. A pretrained Vision Transformer `google/vit-base-patch16-224` model from Hugging Face Transformers was employed and fine-tuned on the cars dataset, achieving an accuracy of 81.56% on the test set.
 
 ## Dataset Details
 
-- **Training Images**:  8,144
-- **Test Images**: 8,041
+- **Training Images**:  14,144
+- **Test Images**: 2041
 - **Number of Classes**: 196
 - **Dataset**: Stanford Car Dataset
 
 ## Model and Training Details
 
 - **Model**: Pretrained Vision Transformer (Base) from Hugging Face Transformers
-- **Training Duration**: 15 epochs
+- **Training Duration**: 10 epochs
 - **Learning Rate**: 2*(10**-5)
-- **Accuracy on Test Set**: 72.88%
+- **Accuracy on Test Set**: 81.56%
 
 ## Implementation Details
 
