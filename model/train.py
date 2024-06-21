@@ -5,13 +5,13 @@ import data_setup, engine, model_builder, utils
 from torchvision import transforms
 
 
-NUM_EPOCHS = 10
+NUM_EPOCHS = 20
 BATCH_SIZE = 64
 LEARNING_RATE = 2*(10**-5)
 
 
-train_dir = "/kaggle/input/stanford-car-dataset-by-classes-folder/car_data/car_data/train"
-test_dir = "/kaggle/input/stanford-car-dataset-by-classes-folder/car_data/car_data/test"
+train_dir = "/content/car_data/train"
+test_dir = "/content/car_data/test"
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
